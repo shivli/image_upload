@@ -1,0 +1,16 @@
+{
+  "name": "busboy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-busboy": "0.0.2",
+    "fs-extra": "^7.0.1",
+    "mongoose": "^5.5.3"
+  }
+}
