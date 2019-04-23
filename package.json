@@ -1,16 +1,19 @@
 {
-  "name": "busboy",
+  "name": "nodejs-1",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
   "dependencies": {
-    "connect-busboy": "0.0.2",
-    "fs-extra": "^7.0.1",
-    "mongoose": "^5.5.3"
+    "busboy": "^0.3.1",
+    "randomstring": "^1.1.5"
   }
 }
